@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Kumbh+Sans:wght@400;700&family=Poppins:wght@200;300;400;500&family=Quicksand:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+}
+
+body {
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+@media screen and (max-width: 2560px) {
+    body {
+        min-height: 1440px;
+    }
+    .woman {
+        transform: scale(1.7);
+        position: absolute;
+        top: 20%;
+        left: 7%;
+    }
+    
+    .main {
+        transform: scale(0.85);
+        position: absolute;
+        top: -25%;
+        left: -6.8%;
+    }
+    
+    .box {
+        transform: scale(1.4);
+        position: absolute;
+        top: 43%;
+        left: -1%;
+        z-index: 2;
+    }
+    
+    .container {
+        width: 100%;
+        z-index: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 720px;
+        max-width: calc(2000px - 200px);
+        background: #fff;
+        border-radius: 30px;
+    }
+    
+    .faq {
+        position: absolute;
+        left: 50%;
+        width: 700px;
+        padding: 50px 200px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .question {
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    label {
+        font-size: 26px;
+    }
+
+    .answer {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        min-height: 731px;
+    }
+    .woman {
+        transform: scale(1.2);
+        position: absolute;
+        top: 20%;
+        left: 4%;
+    }
+    
+    .main {
+        transform: scale(0.6);
+        position: absolute;
+        top: -30%;
+        left: -16%;
+    }
+    
+    .box {
+        transform: scale(1);
+        position: absolute;
+        top: 43%;
+        left: -1%;
+        z-index: 2;
+    }
+    
+    .container {
+        width: 100%;
+        z-index: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 570px;
+        max-width: calc(1440px - 200px);
+        background: #fff;
+        border-radius: 30px;
+    }
+    
+    .faq {
+        position: absolute;
+        left: 50%;
+        width: 700px;
+        padding: 50px 200px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .question {
+        padding: 10px 0;
+    }
+    
+    h1 {
+        font-size: 38px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        min-height: 657px;
+    }
+    .woman {
+        transform: scale(1);
+        position: absolute;
+        top: 20%;
+        left: 0;
+    }
+    
+    .main {
+        transform: scale(0.5);
+        position: absolute;
+        top: -35%;
+        left: -21%;
+    }
+    
+    .box {
+        position: absolute;
+        top: 45%;
+        left: -2.5%;
+        z-index: 2;
+    }
+    
+    .container {
+        width: 100%;
+        z-index: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 525px;
+        max-width: calc(1366px - 200px);
+        background: #fff;
+        border-radius: 30px;
+    }
+    
+    .faq {
+        position: absolute;
+        left: 50%;
+        width: 700px;
+        padding: 50px 200px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .question {
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .answer {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        min-height: 657px;
+    }
+    .woman {
+        /* transform: scale(1); */
+        position: absolute;
+        top: 20%;
+        left: 0;
+    }
+    
+    .main {
+        transform: scale(0.5);
+        position: absolute;
+        top: -35%;
+        left: -23%;
+    }
+    
+    .box {
+        transform: scale(0.9);
+        position: absolute;
+        top: 45%;
+        left: -2.5%;
+        z-index: 2;
+    }
+    
+    .container {
+        width: 100%;
+        z-index: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 525px;
+        max-width: calc(1200px - 100px);
+        background: #fff;
+        border-radius: 30px;
+    }
+    
+    .faq {
+        position: absolute;
+        left: 50%;
+        width: 700px;
+        padding: 50px 200px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .question {
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .answer {
+        font-size: 16px;
+    }
+}
+
+input {
+    transform: scale(0);
+}
+
+
+label {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    position: relative;
+    height: 14px;
+    width: 3px;
+}
+
+.arrow::before, .arrow::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 10px;
+    width: 3px;
+    background: hsl(14, 88%, 65%);
+    transition: all 0.2s ease;
+}
+
+.arrow::before {
+    content: "";
+    transform: translateX(-5px) rotate(-45deg);
+}
+
+.arrow::after {
+    content: "";
+    transform: translateX(0) rotate(45deg);
+}
+
+input:checked ~ .form .arrow::before {
+    transform: translateX(-5px) rotate(-135deg);
+}
+
+input:checked ~ .form .arrow::after {
+    transform: rotate(135deg);
+}
+
+.answer {
+    display: none;
+    padding: 5px 0;
+    transition: all 0.2s;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.active {
+    display: block;
+    transition: all 0.2s;
+}
+
+.activeLabel {
+    font-weight: 700;
+}
